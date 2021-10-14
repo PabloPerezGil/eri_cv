@@ -1,0 +1,15 @@
+/* px -> absoluta*/
+/* vh -> flexible (view-port height)*/
+/* 100vh == 100%*/
+/* em -> relativa*/
+#about-me{
+    height: 80vh;
+    width: 50%;
+    background-color: red;
+    font-size: 10px;
+    margin-top: 45px;
+
+}
+.about-me-container h1{
+    font-size: 1.6em;
+}

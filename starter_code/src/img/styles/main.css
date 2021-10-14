@@ -1,0 +1,29 @@
+
+/*declaro variables */
+@import url(./hero.css);
+@import url(./about-me.css);
+@import url(./social-bttns.css);
+@import url(.btn-desc);
+:root{
+    --fontbase:'Poppins', sans-serif;
+    --headline2: bold 50px/96px var(--fontbase);
+    --headline5: bold 24px/39px var(--fontbase);
+    --body1:bold 24px/39px var(--fontbase);
+    --purple: #310A90;
+    /*--white:var(--fontbase)
+    --blue:var(--fontbase)*/
+}
+
+body{
+    background-color: rgb(20, 85, 85);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: blue;
+
+}
+/* secc elem por id*/
+
+/*style about me */
+
+
+/* selecc de elem por id*/
