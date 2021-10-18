@@ -2,8 +2,10 @@
 /*declaro variables */
 @import url(./hero.css);
 @import url(./about-me.css);
-@import url(./social-bttns.css);
+@import url(./header.css);
 @import url(.btn-desc);
+@import url(.hero-content);
+
 :root{
     --fontbase:'Poppins', sans-serif;
     --headline2: bold 50px/96px var(--fontbase);
@@ -13,7 +15,7 @@
     /*--white:var(--fontbase)
     --blue:var(--fontbase)*/
 }
-
+/*desktop first*/
 body{
     background-color: rgb(20, 85, 85);
     font-family: 'Poppins', sans-serif;
@@ -27,3 +29,20 @@ body{
 
 
 /* selecc de elem por id*/
+
+.container{
+padding-left: 20px;
+padding-right: 20px;
+}
+/*mobile styles*/
+@media all and (max-width 600px) {
+    body{
+        background-color: brown;
+    }
+}
+/*tablet styles*/
+@media screen and (min-width:601px) (max-width:900px) {
+    body{
+        background-color: cornflowerblue;
+    }
+}

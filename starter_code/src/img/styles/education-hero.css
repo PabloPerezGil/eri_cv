@@ -1,0 +1,42 @@
+#education-hero{
+/*bgd color*/
+
+    background-image: url();
+    height: 80vh;
+    background-position: top;
+    background-size: cover;
+}
+#education-hero h1{
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+    font-size: 5.2rem;
+}
+
+@keyframes MoveInLeft{
+    0%{
+        transform: translateX(-100px);
+    }
+    80%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+#gradiente-hero{
+    height: 100vh;
+    background-image: linear-gradient(180deg,yellow,green);
+
+}
+
+#gradiente-radial-hero{
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+/*mobile first*/
+#responsive{
+    background-color: bisque;
+}
+.responsive-img img{
+    height: 90px;
+    width: 50px;
+}
